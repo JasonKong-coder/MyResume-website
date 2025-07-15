@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jason Kong - Developer Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f3f3;
+      margin: 0;
+      padding: 20px;
+    }
+    .resume {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #333;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <h1>Jason Kong</h1>
+    <p>📍 Malaysia | 📧 jason@example.com | 📱 +60 XXXXXXXXX</p>
+    <hr>
+
+    <h2>👋 About Me</h2>
+    <p>I am a self-taught front-end developer, currently learning HTML, CSS, JavaScript, and more. I have a strong daily habit of coding and am passionate about turning my skills into real-world projects.</p>
+
+    <h2>💻 Skills</h2>
+    <ul>
+      <li>Languages: HTML, CSS, JavaScript (Basic)</li>
+      <li>Tools: VS Code, Mimo, FreeCodeCamp, GitHub</li>
+      <li>Daily CSS Battle Practice</li>
+    </ul>
+
+    <h2>📚 Learning Progress</h2>
+    <ul>
+      <li>Mimo App - Full Stack Path (Day 52)</li>
+      <li>FreeCodeCamp - Responsive Web Design</li>
+      <li>Daily coding on phone + desktop</li>
+    </ul>
+
+    <h2>🎯 Goals</h2>
+    <ul>
+      <li>Complete HTML, CSS, JavaScript, TypeScript, React</li>
+      <li>Learn SQL, Python, C++, C#, AI Development</li>
+      <li>Build and publish personal portfolio</li>
+    </ul>
+
+    <h2>🎓 Education</h2>
+    <p>High School Graduate | Planning for Diploma in Hotel Management</p>
+
+    <h2>🧠 Personal Traits</h2>
+    <ul>
+      <li>Disciplined, Self-motivated, Honest</li>
+      <li>Willing to grow and explore career paths in both tech & hospitality</li>
+    </ul>
+  </div>
+</body>
+</html>
