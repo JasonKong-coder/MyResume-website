@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kong Wen Hao - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+    img.avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .section {
+      margin-top: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .contact span {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    .lang-toggle {
+      text-align: right;
+    }
+    .lang-toggle button {
+      margin: 10px;
+      padding: 5px 10px;
+      font-size: 0.9em;
+    }
+    .cn, .en {
+      display: none;
+    }
+    .show {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="lang-toggle">
+    <button onclick="switchLang('en')">English</button>
+    <button onclick="switchLang('cn')">中文</button>
+  </div>
+
+  <div id="en" class="en show">
+    <header style="text-align: center;">
+      <img src="avatar.jpg" alt="Kong Wen Hao's Avatar" class="avatar" />
+      <h1>Kong Wen Hao</h1>
+      <p><strong>Self-Taught Web Developer</strong> | Singapore PR</p>
+      <div class="contact">
+        <span>📧 jason.kongwl@gmail.com</span>
+        <span>📱 +65 9395 8504</span>
+      </div>
+      <p><em>"Starting from scratch, building a tech-driven life."</em></p>
+    </header>
+
+    <section class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm a self-taught front-end developer currently learning HTML, CSS, and JavaScript. What started as a time-filler became a daily habit. I’m disciplined, introspective, and committed to using code to reshape my future.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>Basic JavaScript</li>
+        <li>VS Code usage</li>
+        <li>GitHub basics</li>
+        <li>English reading comprehension</li>
+        <li>Daily coding habit (Mimo, freeCodeCamp, CSS Battle,CodeWars)</li>
+        <li>More in progress...</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>SMK Taman Tun Aminah, Johor</strong> – SPM Graduate (Year: 2020)</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Certificates</h2>
+      <ul>
+        <li><a href="certificates/HTML certificate.pdf" target="_blank">Mimo HTML Certificate ✅</a></li>
+        <li><a href="certificates/CSS certificate.pdf" target="_blank">Mimo CSS Certificate ✅</a></li>
+        <li>More in progress...</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>National Service – Security Trooper (Combatant)</strong><br />
+        <em>02/11/2022 – 02/11/2024</em><br />
+        Performed patrol and security duties. Gained strong discipline, stress management, and teamwork skills.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Resume Webpage</strong><br />
+          A personal resume built using HTML, to be expanded with CSS and JavaScript for full functionality.
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Languages</h2>
+      <ul>
+        <li>English</li>
+        <li>Chinese</li>
+        <li>Malay</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Note</h2>
+      <p>
+        This webpage is one of my self-learning outcomes, serving as a project sample and resume for future job opportunities.
+      </p>
+    </section>
+  </div>
+
+  <div id="cn" class="cn">
+    <header style="text-align: center;">
+      <img src="avatar.jpg" alt="Jason的头像" class="avatar" />
+      <h1>Jason Kong</h1>
+      <p><strong>自学前端开发者</strong> | 新加坡PR</p>
+      <div class="contact">
+        <span>📧 jason.kongwl@gmail.com</span>
+        <span>📱 +65 9395 8504</span>
+      </div>
+      <p><em>"从零开始，慢慢打造自己的技术人生。"</em></p>
+    </header>
+
+    <section class="section">
+      <h2>关于我</h2>
+      <p>
+        我是一位自学前端开发的新手，原本接触 HTML 只是为了打发时间，但随着学习深入，逐渐培养出每天练习代码的习惯。我善于反思、坚持习惯，有自律意识，希望未来靠自己的技术与项目作品走出一条稳定的职业道路。
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>技能</h2>
+      <ul>
+        <li>HTML 与 CSS</li>
+        <li>JavaScript（基础）</li>
+        <li>VS Code 操作</li>
+        <li>GitHub 基础</li>
+        <li>英文阅读理解</li>
+        <li>每日自学习惯（Mimo,freeCodeCamp,CSS Battle,CodeWars）</li>
+        <li>其他技能还在学习中</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>教育经历</h2>
+      <ul>
+        <li><strong>SMK Taman Tun Aminah, Johor</strong> – SPM 毕业（年份：2020）</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>证书</h2>
+      <ul>
+        <li><a href="">Mimo HTML 证书 ✅</a></li>
+        <li><a href="">Mimo CSS 证书 ✅</a></li>
+        <li>其他还在持续学习中</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>经历</h2>
+      <ul>
+        <li><strong>新加坡国民服役 – Security Trooper</strong><br />
+        <em>2022年11月2日 – 2024年11月2日</em><br />
+        执行巡逻与安保任务，培养了纪律意识、抗压能力与团队合作精神。</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>项目经验</h2>
+      <ul>
+        <li>
+          <strong>个人简历网页</strong><br />
+          使用 HTML 编写，未来将加入 CSS 与 JavaScript 丰富功能，作为展示项目。
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>语言能力</h2>
+      <ul>
+        <li>英文</li>
+        <li>中文</li>
+        <li>马来文</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>附注</h2>
+      <p>
+        本网页为我的自学成果之一，作为简历与项目展示用途，用于未来找实习或全职工作。
+      </p>
+    </section>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      document.getElementById('en').classList.remove('show');
+      document.getElementById('cn').classList.remove('show');
+      document.getElementById(lang).classList.add('show');
+    }
+  </script>
+</body>
+</html>
