@@ -5,4 +5,4 @@ It includes sections about me, my skills, projects, and contact information.
 
 # Webpage
 
-[Resumd](https://jasonkong-coder.github.io/MyResume-website/)
+[Resume](https://jasonkong-coder.github.io/MyResume-website/)
